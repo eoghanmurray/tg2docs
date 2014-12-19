@@ -393,5 +393,5 @@ TurboGears2 ignore them. Just add the list of parameters to ignore in
 
     base_config.ignore_parameters = ['timestamp', 'param_name']
 
-You will still be able to access them from the ``tg.request`` object if you
+You will still be able to access them in the ``tg.request.params`` dictionary if you
 need them for any reason.
